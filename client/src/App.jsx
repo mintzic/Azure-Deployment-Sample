@@ -8,7 +8,7 @@ function App() {
 
   // Create axios instance with base configuration
   const api = axios.create({
-    baseURL: "https://authinc-test-h2b4dsdkfxhhckb7.southeastasia-01.azurewebsites.net",
+    baseURL: "localhost:3000",
     timeout: 5000, // 5 seconds timeout
     headers: {
       "Content-Type": "application/json",
